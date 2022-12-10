@@ -1,0 +1,61 @@
+{
+  "name": "wife-swag",
+  "private": true,
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start",
+    "lint": "eslint --cache .",
+    "fix": "eslint --cache --fix .",
+    "format": "prettier --cache --plugin-search-dir=. --write .",
+    "prepare": "husky install"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^18.11.12",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "babel-plugin-solid-labels": "^0.13.0",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-define-config": "^1.12.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-solid": "^0.9.1",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1",
+    "sass": "^1.56.2",
+    "solid-start-vercel": "^0.2.7",
+    "typescript": "^4.9.3",
+    "unplugin-auto-import": "^0.12.0",
+    "vite": "^3.2.5",
+    "vite-plugin-qrcode": "^0.2.0"
+  },
+  "dependencies": {
+    "@solid-primitives/audio": "^1.3.4",
+    "@solid-primitives/timer": "^1.3.4",
+    "@solidjs/meta": "^0.28.2",
+    "@solidjs/router": "^0.5.1",
+    "bootstrap": "^5.2.3",
+    "bootstrap-dark-5": "^1.1.3",
+    "solid-bootstrap": "^1.0.11",
+    "solid-js": "^1.6.3",
+    "solid-start": "^0.2.7",
+    "undici": "^5.13.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@babel/core",
+        "@popperjs/core"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "lint-staged": {
+    "*": "prettier --ignore-unknown --write",
+    "*.{c,m}?{j,t}sx?": "eslint --cache --fix"
+  }
+}

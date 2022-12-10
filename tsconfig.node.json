@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "types": ["node"]
+  },
+  "include": ["./*.config.ts", "./.*rc.cjs", "./.*rc.js"]
+}
