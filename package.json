@@ -1,6 +1,7 @@
 {
   "name": "wife-swag",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "solid-start dev",
     "build": "solid-start build",
