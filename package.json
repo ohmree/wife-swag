@@ -42,7 +42,7 @@
     "solid-bootstrap": "^1.0.11",
     "solid-js": "^1.6.3",
     "solid-start": "^0.2.7",
-    "undici": "^5.13.0"
+    "undici": "^5.19.1"
   },
   "pnpm": {
     "peerDependencyRules": {
