@@ -29,7 +29,7 @@
     "solid-start-vercel": "^0.2.7",
     "typescript": "^4.9.3",
     "unplugin-auto-import": "^0.12.0",
-    "vite": "^3.2.5",
+    "vite": "^3.2.7",
     "vite-plugin-qrcode": "^0.2.0"
   },
   "dependencies": {
